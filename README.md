@@ -1,32 +1,26 @@
 
-    
-  #ergjb
-    
-  #rbeg
-  #kejrbg
-  #erkjgb
-    
-   ## Table Of Contents 
-    
-  #Installation
-  #usage
-  #license 
-  #contributing
-  #test
-  #questions
+  
+  # Project name:
+    README generator
 
-  ##Installation
-  npm i
+  ## Decription Of project:
+    Creates a README file.
 
-  ##License 
-  MIT
+  ## What you need to know about usage:
+    It is a private repo.
 
-  #Test
-  npm run test
+  ## What you need to know about contributing:
+    Please do not contribute to it.
+
+  ## To install dependencies, please use the npm i command.
+
+  ## This project is covered under the APACHE 2.0 license.
+
+  ## To run tests, please use the npm run test command.
 
 
   ## Questions 
-  If you have any questions about the repo,
-  open an issue or contact me directly at KaylaM27. 
-  You can find more of my work at ejrgn.
-  
+    If you have any questions about the repo,
+    open an issue or contact me directly at kaylajmadore@gmail.com. 
+    You can find more of my work at http://github.com/KaylaM27.
+    

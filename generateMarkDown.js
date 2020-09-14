@@ -1,36 +1,36 @@
 function generateMarkDown(response) {
     return `
-    
-  #${response.title}
-    
-  #${response.description}
-  #${response.know}
-  #${response.contribute}
-    
-   ## Table Of Contents 
-    
-  #Installation
-  #usage
-  #license 
-  #contributing
-  #test
-  #questions
-
-  ##Installation
-  ${response.install}
-
-  ##License 
-  ${response.license}
-
-  #Test
-  ${response.tests}
-
-
-  ## Questions 
-  If you have any questions about the repo,
-  open an issue or contact me directly at ${response.username}. 
-  You can find more of my work at ${response.email}.
-  `;
-  };
   
-  module.exports = generateMarkDown;
+  # Project name:
+    ${response.title}
+
+  ## Description:
+    ${response.description}
+
+  ## Table of Contents
+
+  ### Installation:
+    To install dependencies, please use the ${response.install} command.
+
+  ### Usage:
+    ${response.know}
+
+  ### License: 
+    This project is covered under the ${response.license} license.
+
+  ### Contributing:
+    ${response.contribute}
+
+  ### Tests:
+    To run tests, please use the ${response.tests} command.
+
+  ### Questions 
+    If you have any questions about the repo,
+    open an issue or contact me directly at ${response.email}. 
+    You can find more of my work at http://github.com/${response.username}.
+    `;
+};
+
+module.exports = generateMarkDown;
+
+//Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
