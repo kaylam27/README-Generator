@@ -1,5 +1,10 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+const util = require("util");
+const generateMarkDown = require("./generateMarkdown.js")
+
+
+const writeFile = util.promisify(fs.writeFile);
 
 inquirer.prompt(
   [
@@ -52,15 +57,13 @@ inquirer.prompt(
       name: "contribute"
     }
   ]
-).then(function(response) {
-
-    const generate = generateMarkDown(response);
-
-    return writeFile("readme.md", generate);
-})
-.then(function () {
-    console.log("Successfully wrote to index.html");
+).then(function (response){
+  const generate = generateMarkDown(response);
+  return writeFile("README.md", generate);
+}
+).then(function () {
+  console.log("Successfully written.");
 })
 .catch(function (err) {
-    console.log(err);
+  console.log(err);
 });
