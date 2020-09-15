@@ -1,36 +1,40 @@
+const index = require("./index.js");
+
 function generateMarkDown(response) {
     return `
   
   # Project name:
     ${response.title}
 
-  ## Description:
+  ### Description:
     ${response.description}
 
-  ## Table of Contents
+  ### Table of Contents
 
-  ### Installation:
-    To install dependencies, please use the ${response.install} command.
+  #### Installation:
+    To install dependencies, please use the "${response.install}" command.
 
-  ### Usage:
+  #### Usage:
     ${response.know}
 
-  ### License: 
+  #### License: 
     This project is covered under the ${response.license} license.
 
-  ### Contributing:
+  #### Contributing:
     ${response.contribute}
 
-  ### Tests:
-    To run tests, please use the ${response.tests} command.
+  #### Tests:
+    To run tests, please use the "${response.tests}" command.
 
-  ### Questions 
+  #### Questions 
     If you have any questions about the repo,
     open an issue or contact me directly at ${response.email}. 
     You can find more of my work at http://github.com/${response.username}.
+
+    https://img.shields.io/badge/License-MIT-green
+
     `;
 };
 
 module.exports = generateMarkDown;
 
-//Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions

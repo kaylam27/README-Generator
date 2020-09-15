@@ -1,26 +1,33 @@
 
   
   # Project name:
-    README generator
+    README
 
-  ## Decription Of project:
-    Creates a README file.
+  ### Description:
+    gen readme
 
-  ## What you need to know about usage:
-    It is a private repo.
+  ### Table of Contents
 
-  ## What you need to know about contributing:
-    Please do not contribute to it.
+  #### Installation:
+    To install dependencies, please use the "npm i" command.
 
-  ## To install dependencies, please use the npm i command.
+  #### Usage:
+    private
 
-  ## This project is covered under the APACHE 2.0 license.
+  #### License: 
+    This project is covered under the MIT license.
 
-  ## To run tests, please use the npm run test command.
+  #### Contributing:
+    don;t
 
+  #### Tests:
+    To run tests, please use the "npm run test" command.
 
-  ## Questions 
+  #### Questions 
     If you have any questions about the repo,
-    open an issue or contact me directly at kaylajmadore@gmail.com. 
-    You can find more of my work at http://github.com/KaylaM27.
+    open an issue or contact me directly at @gmaiol. 
+    You can find more of my work at http://github.com/kayla.
+
+    https://img.shields.io/badge/License-MIT-green
+
     
