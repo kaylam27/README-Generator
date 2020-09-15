@@ -1,10 +1,11 @@
 
 
   # Project name:
-    rjkgf ![License Badge](https://img.shields.io/badge/License-MIT-blue)
+    erg 
+    ![License Badge](https://img.shields.io/badge/License-MIT-blue)
 
   ### Description:
-    ergjb
+    erg
 
   ### Table of Contents
 
@@ -12,19 +13,19 @@
     To install dependencies, please use the "npm i" command.
 
   #### Usage:
-    kergb
+    erg
 
   #### License: 
     This project is covered under the MIT license.
 
   #### Contributing:
-    rkjgn
+    qerg
 
   #### Tests:
     To run tests, please use the "npm run test" command.
 
   #### Questions 
     If you have any questions about the repo,
-    open an issue or contact me directly at wrefjnb. 
-    You can find more of my work at http://github.com/ekrjnf.
+    open an issue or contact me directly at erg. 
+    You can find more of my work at http://github.com/erf.
     
