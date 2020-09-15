@@ -1,11 +1,9 @@
-const toc = require('markdown-toc');
-
 function generateMarkDown(response) {
     return `
 
   # Project name:
     ${response.title} 
-    [![License Badge](https://img.shields.io/badge/License-${response.license}-brightgreen)]
+    ![License Badge](https://img.shields.io/badge/License-${response.license}-brightgreen)
 
   ### Description:
     ${response.description}

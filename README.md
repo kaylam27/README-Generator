@@ -1,31 +1,12 @@
+# README Generator
 
+## Description:
+This README file generator provides the user with command line questions to create a readme.md file for their project.
 
-  # Project name:
-    tbnte 
-    [![License Badge](https://img.shields.io/badge/License-MIT-brightgreen)]
+## Installation:
+Please ensure you have node.js installed, and run "npm i" to install dependencies.
 
-  ### Description:
-    nty
-
-  ### Table of Contents
-
-  #### Installation:
-    To install dependencies, please use the "npm i" command.
-
-  #### Usage:
-    tyn
-
-  #### License: 
-    This project is covered under the MIT license.
-
-  #### Contributing:
-    tyn
-
-  #### Tests:
-    To run tests, please use the "npm run test" command.
-
-  #### Questions 
-    If you have any questions about the repo,
-    open an issue or contact me directly at btrb. 
-    You can find more of my work at http://github.com/rg4rb.
+## Usage:
+![ezgif-6-2846aeb4639a (1)](https://user-images.githubusercontent.com/66179815/93272159-be9fec80-f769-11ea-8548-31a1f1e0913f.gif)
+<img width="642" alt="Screen Shot 2020-09-15 at 3 42 09 PM" src="https://user-images.githubusercontent.com/66179815/93272326-14749480-f76a-11ea-8546-3ba6e35c9038.png">
     
