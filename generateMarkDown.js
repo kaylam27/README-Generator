@@ -5,7 +5,7 @@ function generateMarkDown(response) {
 
   # Project name:
     ${response.title} 
-    ![License Badge](https://img.shields.io/badge/License-${response.license}-blue)
+    [![License Badge](https://img.shields.io/badge/License-${response.license}-blue)]
 
   ### Description:
     ${response.description}
