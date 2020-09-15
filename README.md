@@ -1,11 +1,11 @@
 
 
   # Project name:
-    gbnert 
-    [![License Badge](https://img.shields.io/badge/License-MIT-blue)]
+    tbnte 
+    [![License Badge](https://img.shields.io/badge/License-MIT-brightgreen)]
 
   ### Description:
-    teyn
+    nty
 
   ### Table of Contents
 
@@ -19,13 +19,13 @@
     This project is covered under the MIT license.
 
   #### Contributing:
-    ten
+    tyn
 
   #### Tests:
     To run tests, please use the "npm run test" command.
 
   #### Questions 
     If you have any questions about the repo,
-    open an issue or contact me directly at tybne. 
-    You can find more of my work at http://github.com/rrtb.
+    open an issue or contact me directly at btrb. 
+    You can find more of my work at http://github.com/rg4rb.
     
