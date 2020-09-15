@@ -2,9 +2,9 @@ const toc = require('markdown-toc');
 
 function generateMarkDown(response) {
     return `
-  
+
   # Project name:
-    ${response.title}
+    ${response.title} ![License Badge](https://img.shields.io/badge/License-${response.license}-blue)
 
   ### Description:
     ${response.description}
@@ -19,7 +19,6 @@ function generateMarkDown(response) {
 
   #### License: 
     This project is covered under the ${response.license} license.
-    https://img.shields.io/apm/l/markdown-toc
 
   #### Contributing:
     ${response.contribute}
