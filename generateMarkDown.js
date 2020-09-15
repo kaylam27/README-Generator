@@ -1,4 +1,4 @@
-const index = require("./index.js");
+const toc = require('markdown-toc');
 
 function generateMarkDown(response) {
     return `
@@ -19,6 +19,7 @@ function generateMarkDown(response) {
 
   #### License: 
     This project is covered under the ${response.license} license.
+    https://img.shields.io/apm/l/markdown-toc
 
   #### Contributing:
     ${response.contribute}
@@ -30,9 +31,6 @@ function generateMarkDown(response) {
     If you have any questions about the repo,
     open an issue or contact me directly at ${response.email}. 
     You can find more of my work at http://github.com/${response.username}.
-
-    https://img.shields.io/badge/License-MIT-green
-
     `;
 };
 
