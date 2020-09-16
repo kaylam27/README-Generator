@@ -60,7 +60,7 @@ inquirer.prompt(
   ]
 ).then(function (response){
   const generate = generateMarkDown(response);
-  return writeFile("README2.md", generate);
+  return writeFile("README.md", generate);
 }
 ).then(function () {
   console.log("Successfully written.");
